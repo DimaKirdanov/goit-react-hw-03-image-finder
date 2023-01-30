@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Header = styled.header`
-    top: 0;
+  top: 0;
   left: 0;
   position: sticky;
   z-index: 1100;
@@ -20,7 +20,7 @@ export const Header = styled.header`
 `;
 
 export const Form = styled.form`
-    display: flex;
+  display: flex;
   align-items: center;
   width: 100%;
   max-width: 600px;
@@ -30,7 +30,7 @@ export const Form = styled.form`
 `;
 
 export const Button = styled.button`
-    display: inline-block;
+  display: inline-block;
   width: 48px;
   height: 48px;
   border: 0;
@@ -43,9 +43,10 @@ export const Button = styled.button`
   cursor: pointer;
   outline: none;
 
-    &:hover, &:focus {
-        opacity: 1;
-    }
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
 `;
 
 export const Span = styled.span`
@@ -57,7 +58,7 @@ export const Span = styled.span`
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   clip-path: inset(50%);
-  border: 0;  
+  border: 0;
 `;
 
 export const Input = styled.input`
@@ -69,9 +70,9 @@ export const Input = styled.input`
   outline: none;
   padding-left: 4px;
   padding-right: 4px;
-  
-    &::placeholder {
-        font: inherit;
-        font-size: 18px;
-    }
+
+  &::placeholder {
+    font: inherit;
+    font-size: 18px;
+  }
 `;

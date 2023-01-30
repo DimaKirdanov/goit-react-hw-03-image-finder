@@ -28,6 +28,6 @@ img {
   height: auto;
 }
 
-[data-testid="three-dots-loading"] {
+[data-testid='three-dots-loading'] {
   justify-content: center;
 }
